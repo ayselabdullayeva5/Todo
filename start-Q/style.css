@@ -11,28 +11,37 @@ a:hover {
 }
 
 #dom {
-  margin-top: 20px;
+  margin-top: 40px;
+}
+#dom .minibox {
+  margin-top: 25px;
+}
+#dom .minibox h2 {
+  border: 1px solid #314dc7;
+  margin-top: 15px;
+  border-radius: 16px;
+  padding: 8px;
+  width: 180px;
 }
 #dom .box {
-  width: 220px;
+  width: 270px;
+  height: 200px;
   background-color: #9c6644;
-  border-radius: 8%;
+  border-radius: 10%;
 }
-#dom .box h1 {
+#dom .box .textbox h1 {
   font-weight: bold;
   margin: 18px 0;
   color: white;
   font-size: 34px;
 }
-#dom .box .input {
-  line-height: 2.3;
+#dom .box .textbox input {
+  height: 50px;
   cursor: pointer;
 }
-#dom .box .mini {
+#dom .box .textbox .btn {
   margin: 20px 0;
-  border-radius: 3%;
-}
-#dom .box .mini .btn {
+  border-radius: 18%;
   background-color: white;
   width: 48px;
 }/*# sourceMappingURL=style.css.map */
